@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job search</h1>
+        <input type="text" id="job-input" placeholder="Enter speciality">
+        <button id="search-button">Search</button>
+
+        <h2>Vacancies found</h2>
+        <div id="job-list" class="job-list"></div>
+
+        <h2>Favorite vacancies</h2>
+        <div id="favorite-list" class="job-list"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
